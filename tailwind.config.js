@@ -4,16 +4,17 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor: {
-        'bg': '#2F4858',
-        'bg-variant': '#245F72',
-        'primary': '#3AC08F',
-        'primary-variant': '#00A894',
+        bg: "#18191a",
+        fill: "#1c1e21",
+        primary: "#0866ff",
+        "primary-variant": "#b0b3b8",
       },
       textColor: {
-        'primary': '#3AC08F',
-        'primary-variant': '#00A894',
+        primary: "#0866ff",
+        "primary-variant": "#b0b3b8",
+        fill: "#e4e6eb",
       },
     },
   },
   plugins: [],
-}
+};

@@ -1,20 +1,13 @@
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
   min-width: 0;
   min-height: 0;
 }
 
 :root {
-  --color-bg: #2f4858;
-  --color-bg-variant: #245f72;
-  --color-primary: #3ac08f;
-  --color-primary-variant: #00a894;
+  --color-bg: #18191a;
+  --color-bg-variant: #1c1e21;
+  --color-primary: #0866ff;
+  --color-primary-variant: #b0b3b8;
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
@@ -26,9 +19,7 @@ body {
   background-color: var(--color-bg);
   background-image: url(../src/assets/bg-texture.png);
   background-blend-mode: color-burn;
-
-  
 }
-.br{
+.br {
   border: 1px solid red;
 }
