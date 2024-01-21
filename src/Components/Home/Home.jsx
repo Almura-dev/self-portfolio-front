@@ -9,6 +9,7 @@ export const Home = () => {
           <img
             src="https://i.ibb.co/fNFpLx3/me2.png"
             alt="https://i.ibb.co/fNFpLx3/me2.png"
+            className="filter grayscale"
           />
         </motion.div>
       </div>
@@ -16,7 +17,7 @@ export const Home = () => {
         <section className="relative flex h-1/2 w-full flex-col items-center justify-center gap-5 md:h-screen md:w-2/5">
           <article className="relative flex w-full flex-col items-center p-0 md:items-start md:pl-20">
             <span className="text-1xl text-750 text-primary-variant">I am</span>
-            <h1 className="text-8xl font-bold text-750 md:ml-8 md:text-9xl text-primary ">
+            <h1 className="text-8xl font-bold text-750 md:ml-8 md:text-9xl text-primary text-stroke-3 ">
               ALAN
             </h1>
             <span className="text-xl text-950 lg:text-4xl text-primary-variant">
@@ -28,11 +29,9 @@ export const Home = () => {
                     3000, // wait 1s before replacing "Mice" with "Hamsters"
                     " Front-End Developer",
                     3000,
-                    
                   ]}
                   wrapper="span"
                   speed={25}
-                  
                   repeat={Infinity}
                 />
               </div>
@@ -43,8 +42,7 @@ export const Home = () => {
                   transition: "opacity 0.5s ease 0s",
                   opacity: 0,
                 }}
-              >
-              </span>
+              ></span>
             </span>
           </article>
         </section>
