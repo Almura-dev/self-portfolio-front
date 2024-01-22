@@ -8,9 +8,9 @@ import { Home2 } from "./Components/Home/Home2";
 function App() {
   return (
     <Router>
-      <div className="App container w-full h-full min-h-screen">
+      <div className="App container w-full h-full ">
         {/* <Topbar/> */}
-        <Navbar />
+        {/* <Navbar /> */}
         <Routes>
           <Route path="/" element={<Home2 />} />
         </Routes>
