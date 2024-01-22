@@ -10,7 +10,6 @@ function App() {
     <Router>
       <div className="App container w-full h-full ">
         {/* <Topbar/> */}
-        {/* <Navbar /> */}
         <Routes>
           <Route path="/" element={<Home2 />} />
         </Routes>

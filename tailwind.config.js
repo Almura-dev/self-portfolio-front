@@ -14,6 +14,10 @@ module.exports = {
         "primary-variant": "#b0b3b8",
         fill: "#e4e6eb",
       },
+      borderColor: {
+        primary: "#FF8A00",
+        "primary-variant": "#b0b3b8",
+      },
     },
   },
   plugins: [],
