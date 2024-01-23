@@ -5,9 +5,8 @@ import { Navbar } from "../Navbar/Navbar";
 
 export const Home2 = () => {
   return (
-    <div className="flex justify-center items-center flex-col">
-      <Navbar/>
-      
+    <div className="flex justify-start items-center flex-col">
+      <Navbar />
       <Hero />
     </div>
   );
