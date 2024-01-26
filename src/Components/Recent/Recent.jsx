@@ -1,14 +1,86 @@
 import React from "react";
-
+import { MdArrowOutward } from "react-icons/md";
 export const Recent = () => {
-  return <div className="h-auto br bg-bg z-0 container flex justify-center items-start">
-    <div className="content w-[85%] h-auto br flex justify-start items-center flex-col pt-32 gap-16 pl-16 pr-16">
-      <div className="title text-white text-3xl">Recent Project</div>
-      <div className="recent br w-full h-auto flex flex-col gap-16 ">
-        <div className="project br w-full h-[65vh] bg-fill rounded-lg"></div>
-        <div className="project br w-full h-[65vh] bg-fill rounded-lg"></div>
-        <div className="project br w-full h-[65vh] bg-fill rounded-lg"></div>
+  return (
+    <div className="h-auto  bg-bg z-0 container flex justify-center items-start">
+      <div className="content w-[85%] h-auto  flex justify-start items-center flex-col pt-32 pb-16 gap-16 pl-16 pr-16">
+        <div className="title text-white text-3xl">Recent Project</div>
+        <div className="recent  w-full h-auto flex flex-col gap-16 ">
+          <div className="project  w-full h-[65vh] bg-fill rounded-xl flex justify-center items-center  overflow-hidden">
+            <div className="w-[50%] h-full  flex pt-16 pr-16">
+              <img
+                className=" rounded-tr-lg"
+                src="https://i.ibb.co/mCD7TrT/408866863-750410110479361-8952381762018789961-n.jpg"
+                alt="https://i.ibb.co/mCD7TrT/408866863-750410110479361-8952381762018789961-n.jpg"
+              />
+            </div>
+            <div className="w-[50%] h-full  flex flex-col p-16 gap-4">
+              <div className="flex-1  text-white text-2xl">
+                Noor Application - Portfolio
+              </div>
+              <div className="flex-1  text-white text-sm font-light font-sans">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Architecto, incidunt?
+              </div>
+              <div className="flex-1  p-4">
+                <div className="rounded-full  w-16 h-16 bg-primary flex justify-center items-center text-3xl text-white hover:scale-125 transition-all ease-in-out">
+                  <MdArrowOutward />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="recent  w-full h-auto flex flex-col gap-16 ">
+          <div className="project  w-full h-[65vh] bg-fill rounded-xl flex justify-center items-center  overflow-hidden">
+            <div className="w-[50%] h-full  flex flex-col p-16 gap-4">
+              <div className="flex-1  text-white text-2xl">
+                Noor Application - Portfolio
+              </div>
+              <div className="flex-1  text-white text-sm font-light font-sans">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Architecto, incidunt?
+              </div>
+              <div className="flex-1  p-4">
+                <div className="rounded-full  w-16 h-16 bg-primary flex justify-center items-center text-3xl text-white ">
+                  <MdArrowOutward />
+                </div>
+              </div>
+            </div>
+            <div className="w-[50%] h-full  flex pt-16 pl-16">
+              <img
+                className=" rounded-tl-lg"
+                src="https://i.ibb.co/mCD7TrT/408866863-750410110479361-8952381762018789961-n.jpg"
+                alt="https://i.ibb.co/mCD7TrT/408866863-750410110479361-8952381762018789961-n.jpg"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="recent  w-full h-auto flex flex-col gap-16 ">
+          <div className="project  w-full h-[65vh] bg-fill rounded-xl flex justify-center items-center  overflow-hidden">
+            <div className="w-[50%] h-full  flex pt-16 pr-16">
+              <img
+                className=" rounded-tr-lg"
+                src="https://i.ibb.co/mCD7TrT/408866863-750410110479361-8952381762018789961-n.jpg"
+                alt="https://i.ibb.co/mCD7TrT/408866863-750410110479361-8952381762018789961-n.jpg"
+              />
+            </div>
+            <div className="w-[50%] h-full  flex flex-col p-16 gap-4">
+              <div className="flex-1  text-white text-2xl">
+                Noor Application - Portfolio
+              </div>
+              <div className="flex-1  text-white text-sm font-light font-sans">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Architecto, incidunt?
+              </div>
+              <div className="flex-1  p-4">
+                <div className="rounded-full  w-16 h-16 bg-primary flex justify-center items-center text-3xl text-white">
+                  <MdArrowOutward />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>;
+  );
 };
