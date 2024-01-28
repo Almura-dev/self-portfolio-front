@@ -18,6 +18,9 @@ module.exports = {
         primary: "#FF8A00",
         "primary-variant": "#b0b3b8",
       },
+      fontFamily: {
+        sm: ["Poppins", "sans-serif"], 
+      },
     },
   },
   plugins: [],

@@ -4,6 +4,7 @@
     url("../src/assets/fonts/couture-bld.otf") format("truetype");
   font-weight: bold;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
   min-width: 0;
@@ -27,6 +28,7 @@ body {
   /* background-image: url(../src/assets/bg-texture.png); */
   /* background-blend-mode: color-burn; */
   font-family: "couture";
+  text-transform: none !important;
 }
 .br {
   border: 1px solid red;

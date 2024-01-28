@@ -3,11 +3,16 @@ import { MdArrowOutward } from "react-icons/md";
 export const Recent = () => {
   return (
     <div className="h-auto  bg-bg z-0 container flex justify-center items-start">
-      <div className="content w-[85%] h-auto  flex justify-start items-center flex-col pt-32 pb-16 gap-16 pl-16 pr-16">
-        <div className="title text-white text-3xl">Recent Project</div>
+      <div className="content w-[85%] h-auto  flex justify-start items-center flex-col pt-16 pb-16 gap-16 pl-16 pr-16">
+        <div className=" flex justify-center flex-col items-center gap-2">
+          <div className="title text-primary-variant  text-1xl font-sm">
+            Check out
+          </div>
+          <div className="title text-primary text-3xl">Recent Projects</div>
+        </div>
         <div className="recent  w-full h-auto flex flex-col gap-16 ">
           <div className="project  w-full h-[65vh] bg-fill rounded-xl flex justify-center items-center  overflow-hidden">
-            <div className="w-[50%] h-full  flex pt-16 pr-16">
+            <div className="w-[50%] flex pt-16 pr-16 justify-end items-end">
               <img
                 className=" rounded-tr-lg"
                 src="https://i.ibb.co/mCD7TrT/408866863-750410110479361-8952381762018789961-n.jpg"
@@ -18,7 +23,7 @@ export const Recent = () => {
               <div className="flex-1  text-white text-2xl">
                 Noor Application - Portfolio
               </div>
-              <div className="flex-1  text-white text-sm font-light font-sans">
+              <div className="flex-1  text-white text-sm font-light font-sm">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Architecto, incidunt?
               </div>
@@ -36,7 +41,7 @@ export const Recent = () => {
               <div className="flex-1  text-white text-2xl">
                 Noor Application - Portfolio
               </div>
-              <div className="flex-1  text-white text-sm font-light font-sans">
+              <div className="flex-1  text-white text-sm font-light font-sm">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Architecto, incidunt?
               </div>
@@ -46,11 +51,11 @@ export const Recent = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[50%] h-full  flex pt-16 pl-16">
+            <div className="w-[50%]  flex pt-16 pl-16">
               <img
                 className=" rounded-tl-lg"
-                src="https://i.ibb.co/mCD7TrT/408866863-750410110479361-8952381762018789961-n.jpg"
-                alt="https://i.ibb.co/mCD7TrT/408866863-750410110479361-8952381762018789961-n.jpg"
+                src="https://i.ibb.co/bNmkJZM/171.jpg"
+                alt="https://i.ibb.co/bNmkJZM/171.jpg"
               />
             </div>
           </div>
@@ -68,7 +73,7 @@ export const Recent = () => {
               <div className="flex-1  text-white text-2xl">
                 Noor Application - Portfolio
               </div>
-              <div className="flex-1  text-white text-sm font-light font-sans">
+              <div className="flex-1  text-white text-sm font-light font-sm">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Architecto, incidunt?
               </div>
