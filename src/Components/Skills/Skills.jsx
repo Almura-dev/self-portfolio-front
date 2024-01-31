@@ -17,7 +17,7 @@ export const Skills = () => {
           </div>
           <div className="title text-primary text-3xl">Skills</div>
         </div>
-        <div className="content  w-[85%] h-full  gap-8 grid grid-cols-4 grid-rows-2 rounded-xl">
+        <div className="content  w-[85%] h-full  gap-8 grid grid-cols-4 grid-rows-2 rounded-xl p-2">
           <div className="skill hover:scale-[1.05] hover:text-primary hover:cursor-pointer hover:shadow-primary  hover:border-primary transition-all rounded-lg flex justify-center items-center text-8xl text-white border-2 border-primary-variant  shadow-lg shadow-primaryVariant">
             <FaReact />
           </div>
