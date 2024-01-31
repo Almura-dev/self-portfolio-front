@@ -4,6 +4,7 @@ import { Navbar } from "../Navbar/Navbar";
 import { Recent } from "../Recent/Recent";
 import { About } from "../About/About";
 import { Skills } from "../Skills/Skills";
+// import { Skills2 } from "../Test/Skills2";
 // import { motion } from "framer-motion";
 
 export const Home2 = () => {
