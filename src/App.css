@@ -4,11 +4,13 @@
     url("../src/assets/fonts/couture-bld.otf") format("truetype");
   font-weight: bold;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
   min-width: 0;
   min-height: 0;
+  box-sizing: border-box;
+  
 }
 
 :root {
@@ -52,4 +54,9 @@ body {
 }
 ::-webkit-scrollbar {
   display: none;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
