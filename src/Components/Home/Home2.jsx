@@ -3,6 +3,7 @@ import { Hero } from "../Hero/Hero";
 import { Navbar } from "../Navbar/Navbar";
 import { Recent } from "../Recent/Recent";
 import { About } from "../About/About";
+import { Skills } from "../Skills/Skills";
 // import { motion } from "framer-motion";
 
 export const Home2 = () => {
@@ -10,8 +11,10 @@ export const Home2 = () => {
     <div className="flex justify-start items-center flex-col">
       <Navbar />
       <Hero />
-      <About/>
+      <About />
       <Recent />
+
+      <Skills />
     </div>
   );
 };
