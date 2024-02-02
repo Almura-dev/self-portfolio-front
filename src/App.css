@@ -24,6 +24,7 @@
   --transition: all 400ms ease;
 
   --swiper-theme-color: white !important;
+  scroll-behavior: smooth;
 }
 body {
   background-color: var(--color-bg);
@@ -31,6 +32,7 @@ body {
   /* background-blend-mode: color-burn; */
   font-family: "couture";
   text-transform: none !important;
+  
 }
 .br {
   border: 1px solid red;

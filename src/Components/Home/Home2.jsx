@@ -5,6 +5,7 @@ import { Recent } from "../Recent/Recent";
 import { About } from "../About/About";
 import { Skills } from "../Skills/Skills";
 import { Contact } from "../Contact/Contact";
+import { Footer } from "../Footer/Footer";
 // import { Skills2 } from "../Test/Skills2";
 // import { motion } from "framer-motion";
 
@@ -15,9 +16,9 @@ export const Home2 = () => {
       <Hero />
       <About />
       <Recent />
-
       <Skills />
       <Contact />
+      <Footer/>
     </div>
   );
 };

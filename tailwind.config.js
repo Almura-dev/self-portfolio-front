@@ -13,6 +13,7 @@ module.exports = {
         primary: "#FF8A00",
         "primary-variant": "#b0b3b8",
         fill: "#e4e6eb",
+        bg: "#181818",
       },
       borderColor: {
         primary: "#FF8A00",
@@ -22,6 +23,12 @@ module.exports = {
         sm: ["Poppins", "sans-serif"], 
       },
       boxShadowColor :{
+        bg: "#181818",
+        fill: "#202020",
+        primary: "#FF8A00",
+        primaryVariant: "#b0b3b8",
+      },
+      placeholderColor :{
         bg: "#181818",
         fill: "#202020",
         primary: "#FF8A00",

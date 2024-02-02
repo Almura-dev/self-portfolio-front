@@ -12,8 +12,6 @@ export const Navbar = () => {
             5000,
             "< > Front - End Dev< / >",
             5000,
-            " < > MERN Stack DEv < / >",
-            5000,
           ]}
           wrapper="span"
           speed={10}
@@ -21,20 +19,20 @@ export const Navbar = () => {
           className="font-bold hover:text-primary hover:cursor-pointer flex-1"
         />
         <span className="flex-1 text-center w-full flex justify-around items-start text-sm">
-          <a href="" className="hover:text-primary">
+          <a href="#about" className="hover:text-primary">
             About
           </a>
-          <a href="" className="hover:text-primary">
+          <a href="#recent" className="hover:text-primary">
             Recent Projects
           </a>
-          <a href="" className="hover:text-primary">
+          <a href="#skill" className="hover:text-primary">
             Skills
           </a>
         </span>
         <div className="flex-1 text-right  h-full flex justify-end items-center">
-          <button class="bg-white h-auto text-primary text-sm   py-2 px-4 border border-white  rounded">
+          <a  download href="/mycv.pdf" class="bg-white h-auto text-primary text-sm   py-2 px-4 border border-white  rounded">
             My CV
-          </button>
+          </a>
         </div>
       </div>
     </nav>

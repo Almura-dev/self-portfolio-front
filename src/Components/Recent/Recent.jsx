@@ -2,7 +2,7 @@ import React from "react";
 import { MdArrowOutward } from "react-icons/md";
 export const Recent = () => {
   return (
-    <div className="h-auto  bg-bg z-0 container flex justify-center items-start">
+    <div className="h-auto  bg-bg z-0 container flex justify-center items-start " id="recent">
       <div className="content w-[85%] h-auto  flex justify-start items-center flex-col p-16 gap-16">
         <div className=" flex justify-center flex-col items-center gap-2">
           <div className="title text-primary-variant  text-1xl font-sm">

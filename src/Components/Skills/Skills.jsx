@@ -9,7 +9,7 @@ import { SiMongodb } from "react-icons/si";
 import { SiPhp } from "react-icons/si";
 export const Skills = () => {
   return (
-    <div className="w-full h-[100vh] bg-fill flex justify-center items-start">
+    <div className="w-full h-[100vh] bg-fill flex justify-center items-start" id="skill">
       <div className="container h-full flex justify-start items-center flex-col p-16 gap-16">
         <div className=" flex justify-center flex-col items-center gap-2">
           <div className="title text-primary-variant  text-1xl font-sm">

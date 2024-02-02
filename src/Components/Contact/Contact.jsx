@@ -4,7 +4,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
 import emailjs from "@emailjs/browser";
-import { ContactBox } from "./ContactBox";
+// import { ContactBox } from "./ContactBox";
 export const Contact = () => {
   const form = useRef();
 
@@ -22,9 +22,9 @@ export const Contact = () => {
   return (
     <section
       id="contact"
-      className="w-full h-[100vh] flex justify-center items-start"
+      className="w-full h-auto flex justify-center items-start"
     >
-      <div className="container flex justify-center flex-col items-center p-16 br">
+      <div className="container flex justify-center flex-col items-center p-8 ">
         <div className=" flex justify-center flex-col items-center gap-2">
           <div className="title text-primary-variant  text-1xl font-sm">
             Get In Touch
@@ -82,53 +82,43 @@ export const Contact = () => {
               </a>
             </div>
           </div>
-          <div className="contactRight w-[50%] h-full p-2 br"></div>
+          <div className="contactRight w-[50%] h-full p-8  ">
+            <form
+              ref={form}
+              onSubmit={sendEmail}
+              className=" flex h-full flex-col justify-start w-full items-center gap-8 "
+            >
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Full Name"
+                required
+                className="rounded-md w-full bg-transparent border-2 border-primary placeholder-primary-variant p-4 text-white "
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+                className="rounded-md w-full bg-transparent border-2 border-primary placeholder-primary-variant p-4 text-white"
+              />
+              <textarea
+                name="message"
+                placeholder="Your message"
+                rows="7"
+                required
+                className="rounded-md w-full bg-transparent border-2 border-primary placeholder-primary-variant p-4 text-white"
+              ></textarea>
+              <button
+                type="submit"
+                className=" p-4 bg-primary text-white rounded-md hover:scale-105 transition-all"
+                value="Send"
+              >
+                Send a message
+              </button>
+            </form>
+          </div>
         </div>
-        <div className="contact__options">
-          <article className="contact__option">
-            <MdOutlineEmail className="contact__option-icon" />
-            <h4>Email</h4>
-            <h5 className="text-light">Daringyan31@gmail.com</h5>
-            <a href="mailto:Daringyan31@gmail.com" target={"_blank"}>
-              Send a message
-            </a>
-          </article>
-          <article className="contact__option">
-            <RiMessengerLine className="contact__option-icon" />
-            <h4>Messenger</h4>
-            <h5 className="text-light">Didar B. Ahmad</h5>
-            <a href="https://m.me/adiv.abosnene.7" target={"_blank"}>
-              Send a message
-            </a>
-          </article>
-          <article className="contact__option">
-            <BsWhatsapp className="contact__option-icon" />
-            <h4>WhatsApp</h4>
-            <h5 className="text-light">+0964 770 280 51 57</h5>
-            <a href="https://wa.me/9647702805157" target={"_blank"}>
-              Send a message
-            </a>
-          </article>
-        </div>
-        {/* END OF CONTACT OPTIONS */}
-        <form ref={form} onSubmit={sendEmail}>
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Full Name"
-            required
-          />
-          <input type="email" name="email" placeholder="Your Email" required />
-          <textarea
-            name="message"
-            placeholder="Your message"
-            rows="7"
-            required
-          ></textarea>
-          <button type="sumbit" className="btn btn-primary" value="Send">
-            Send a message
-          </button>
-        </form>
       </div>
     </section>
   );
